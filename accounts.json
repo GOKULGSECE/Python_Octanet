@@ -1,0 +1,94 @@
+{
+  "7374891719897046751": {
+    "name": "Gokul",
+    "balance": 503.0
+  },
+  "4930316073918582707": {
+    "name": "Kavin",
+    "balance": 4630.0,
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 5000.0,
+        "timestamp": "2023-12-17 00:02:33.036571"
+      },
+      {
+        "type": "transfer",
+        "amount": 200.0,
+        "target_account": "1940363488522566132",
+        "timestamp": "2023-12-17 00:02:53.376819"
+      },
+      {
+        "type": "transfer",
+        "amount": 500.0,
+        "target_account": "1940363488522566132",
+        "timestamp": "2023-12-17 17:42:32.385287"
+      },
+      {
+        "type": "deposit",
+        "amount": 2500.0,
+        "timestamp": "2023-12-17 17:42:42.531711"
+      },
+      {
+        "type": "transfer",
+        "amount": 3500.0,
+        "target_account": "-453825808577814246",
+        "timestamp": "2023-12-17 17:43:38.522341"
+      },
+      {
+        "type": "receive_transfer",
+        "amount": 550.0,
+        "source_account": "-453825808577814246",
+        "timestamp": "2023-12-17 17:45:08.684567"
+      },
+      {
+        "type": "receive_transfer",
+        "amount": 280.0,
+        "source_account": "-453825808577814246",
+        "timestamp": "2023-12-17 17:46:24.715997"
+      }
+    ]
+  },
+  "1940363488522566132": {
+    "name": "3",
+    "balance": 704.0,
+    "transactions": [
+      {
+        "type": "receive_transfer",
+        "amount": 200.0,
+        "source_account": "4930316073918582707",
+        "timestamp": "2023-12-17 00:02:53.376819"
+      },
+      {
+        "type": "receive_transfer",
+        "amount": 500.0,
+        "source_account": "4930316073918582707",
+        "timestamp": "2023-12-17 17:42:32.385287"
+      }
+    ]
+  },
+  "-453825808577814246": {
+    "name": "Pugal",
+    "balance": 3670.0,
+    "transactions": [
+      {
+        "type": "receive_transfer",
+        "amount": 3500.0,
+        "source_account": "4930316073918582707",
+        "timestamp": "2023-12-17 17:43:38.522341"
+      },
+      {
+        "type": "transfer",
+        "amount": 550.0,
+        "target_account": "4930316073918582707",
+        "timestamp": "2023-12-17 17:45:08.684567"
+      },
+      {
+        "type": "transfer",
+        "amount": 280.0,
+        "target_account": "4930316073918582707",
+        "timestamp": "2023-12-17 17:46:24.715997"
+      }
+    ]
+  }
+}
