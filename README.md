@@ -1,5 +1,3 @@
-Certainly! Below is a simple README file that you can use to provide an overview, instructions, and usage details for your ATM system code:
-
 ```markdown
 # Simple ATM System
 
